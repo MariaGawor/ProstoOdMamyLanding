@@ -1,0 +1,245 @@
+
+@font-face {
+    font-family: 'Montserrat-black';
+    src: url('Montserrat-black.eot');
+    src: local('Montserrat-black'), local('Montserrat-black'),
+
+        url('Montserrat-black.woff') format('woff'),
+        url('Montserrat-black.ttf') format('truetype');
+    font-weight:bold;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+font-family:'Montserrat', sans-serif;
+background-image: url(../images/foto1.jpg);
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 14px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../image/logo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+a:visited{
+    color:white;
+}
+
+.col-1-2{
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+.logo {
+    margin-left: -150px;
+}
+.social {
+    margin-left: 300px;
+    padding-top: -25px;
+}
+
+
+#offer{
+    margin-top: 50px;
+    /*background-color: pink;*/
+
+}
+table {
+
+background-color: #f8f6f5;
+height: 30px;
+width: 100%;
+/*border: 2px solid black;*/
+}
+
+th{
+/*border: 2px solid black;*/
+/*background-color: green;*/
+}
+
+td{
+/*border: 2px solid black;*/
+/*background-color: grey;*/
+height: 20px;
+width:100%;
+width: 65%;
+}
+
+  #buy1 {
+    /*background-color: red;*/
+    color:black;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 20px;
+    /*border: 2px solid black;*/
+}
+
+.box1 {
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 2px;
+    /*background-color: green;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-height: 12px;
+    /*border:2px solid black;*/
+}
+
+#offer .text1 {
+   font-size: 10px;
+   color:black;
+   text-align: center;
+   line-height: 20px;
+}
+
+.box2 .col-1-2{
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 2px;
+    /*background-color: black;*/
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-height: 12px;
+
+}
+
+#buy3 {
+  /*background-color: red;*/
+  color:black;
+  font-size: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 20px;
+  /*border: 2px solid black;*/
+}
+
+.box3 {
+  font-size: 13px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  word-spacing: 2px;
+  /*background-color: green;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 12px;
+  /*border:2px solid black;*/
+}
+
+.box4 {
+  /*background-color: green;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 12px;
+  /*border:2px solid black;*/
+}
+
+.col-1-2 .images1 {
+    padding-left: 120px;
+    line-height: 80px;
+}
+.col-1-2 .images2 {
+    padding-left: 55px;
+    line-height: 80px;
+}
+.col-1-2 .images3 {
+    padding-left: 120px;
+    line-height: 80px;
+}
+.col-1-2 .text3 {
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 2px;
+    /*background-color: green;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    line-height: 12px;
+}
+
+.box6 {
+  font-size: 13px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  word-spacing: 2px;
+  /*background-color: green;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 70px;
+  padding-top: 30px;
+  line-height: 12px;
+  /*border:2px solid black;*/
+  height:100px;
+}
+.buyNow{
+    border: 2px solid red;
+    margin-bottom: 30px;
+    margin-left: 50%;
+
+}
+.box7 {
+  font-size: 13px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  word-spacing: 2px;
+  /*background-color: green;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  line-height: 12px;
+  /*border:2px solid black;*/
+  height:40px;
+}
