@@ -1,2 +1,3 @@
 
-document.getElementsByClassName("buyText2").addEventListener("click", displayDate);
+document.getElementsByClassName("buyText").addEventListener("click",mySript);
+var myScript;
